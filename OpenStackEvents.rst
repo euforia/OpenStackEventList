@@ -1,8 +1,10 @@
 compute
 -------
+compute.instance.create.end
+
 compute.instance.create.start
 
-compute.instance.create.end
+compute.instance.exists
 
 compute.instance.update
 
