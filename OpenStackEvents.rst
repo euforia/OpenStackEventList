@@ -1,9 +1,12 @@
-- identity.authenticate
-- identity.project.created
+identity.authenticate
 
-- compute.instance.create.start
-- compute.instance.create.end
-- compute.instance.update
+identity.project.created
+
+compute.instance.create.start
+
+compute.instance.create.end
+
+compute.instance.update
 
 - network.create.start
 - network.create.end
