@@ -1,24 +1,48 @@
-identity.authenticate
-
-identity.project.created
-
+compute
+-------
 compute.instance.create.start
 
 compute.instance.create.end
 
 compute.instance.update
 
-- network.create.start
-- network.create.end
 
-- port.create.start
-- port.create.end
-- port.update.start
-- port.update.end
+identity
+--------
+identity.authenticate
 
-- scheduler.run_instance.start
-- scheduler.run_instance.scheduled
-- scheduler.run_instance.end
+identity.project.created
 
-- subnet.create.end
-- subnet.create.start
+
+network
+-------
+network.create.start
+
+network.create.end
+
+
+port
+----
+port.create.start
+
+port.create.end
+
+port.update.start
+
+port.update.end
+
+
+scheduler
+---------
+scheduler.run_instance.start
+
+scheduler.run_instance.scheduled
+
+scheduler.run_instance.end
+
+
+subnet
+------
+subnet.create.end
+
+subnet.create.start
